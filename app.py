@@ -139,7 +139,7 @@ with แท็บราคา:
             st.dataframe(แถวล่าสุด)
         else:
             st.warning("เลือกสินค้าอย่างน้อย 1 อย่าง")
-with แท็บน้ำ:
+with ข้อมูล:
     st.subheader("ปริมาณการไหลของแม่น้ำ (เตือนภัยน้ำท่วม)")
     c1, c2 = st.columns(2)
     lat2 = c1.number_input("ละติจูด (จุดใกล้แม่น้ำ)", value=18.90, key="lat_river")
